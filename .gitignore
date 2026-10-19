@@ -1,0 +1,41 @@
+# Dependências e caches locais
+node_modules/
+.npm/
+.pnpm-store/
+.cache/
+
+# Saídas geradas (o site é editado diretamente na raiz)
+dist/
+build/
+coverage/
+
+# Configurações e metadados locais de hospedagem
+.openai/
+.sites-*/
+.sites-runtime/
+.sites-checkout/
+
+# Credenciais e configurações privadas
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Logs e arquivos temporários
+*.log
+logs/
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Configuração pessoal de editores
+.vscode/
+.idea/
